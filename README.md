@@ -22,7 +22,7 @@ Divirta-se!
 #### ENGLISH ####
 - Automatically e-mail sender with Node.js and Redis!
 
-- For using the application properly, you should: 
+- In order to use the application properly, you should: 
   * Install the dependencies with npm. Note that you must have Node.js installed to use npm package manager.
   * If you are using Windows as your OS, I recommend you to use Docker Desktop. Otherwise, make sure to install Docker whichever way you prefer.
   * Create the Docker image. For this project, I used the command: "docker run --name redis -p 6379:6379 -d -t redis:alpine". You can use composer files to help you on creating and running docker containers and images. 
