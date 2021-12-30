@@ -16,6 +16,8 @@
   * É importante entender que a rota para envio de e-mail, utiliza uma função simples como middleware. Esse, busca pelo cabeçalho da requisição um Bearer Token para autenticação. Dessa forma, crie um token novo, guarde-o no arquivo "conn" (/src/config/conn.js) e use-o no cabeçalho da requisição.
   * Para o corpo da requisição, use uma lista de objetos JSON com os campos: "email_to", "subject", "html_body" e "attachment" para cada objeto.
 
+Divirta-se!
+
 
 #### ENGLISH ####
 - Automatically e-mail sender with Node.js and Redis!
@@ -32,3 +34,5 @@
 - Usage of e-mail sender:
   * Is important to understand that the route of e-mail sender, utilizes a simple middleware function. That function search for a Bearer Token on request header for authentication. That way, generate a new token, save it on "conn.js" (/src/config/conn.js) file, then use it on request header.
   * For the request body, use a list of JSON objects with fields: "email_to", "subject", "html_body" and "attachment" for each object. 
+
+Enjoy!
