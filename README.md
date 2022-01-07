@@ -32,7 +32,7 @@ Divirta-se!
   * Send a GET request to route: "/" on port 3000. If your response is "Ok", then the application is ready to use and modify, if you want.
 
 - Usage of e-mail sender:
-  * Is important to understand that the route of e-mail sender, utilizes a simple middleware function. That function search for a Bearer Token on request header for authentication. That way, generate a new token, save it on "conn.js" (/src/config/conn.js) file, then use it on request header.
+  * Is important to understand that the route of e-mail sender, utilizes a simple middleware function. This function search for a Bearer Token on request header for authentication. So, generate a new token, save it on "conn.js" (/src/config/conn.js) file, then use it on request header.
   * For the request body, use a list of JSON objects with fields: "email_to", "subject", "html_body" and "attachment" for each object. 
 
 Enjoy!
