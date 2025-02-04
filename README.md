@@ -1,23 +1,4 @@
-# mailService 
-
-#### PORTUGUÊS/BR ####
-- Envio automático de e-mails com Node.js e Redis!
-
-- Para utilizar a aplicação corretamente, voce precisa: 
-  * Instalar as dependências do projeto com npm. Perceba que você precisa ter o Node.js instalado em sua máquina para utilizar o npm como seu gerenciador de pacotes.
-  * Se você utiliza o Windows como seu SO, recomendo utilizar o Docker Desktop. De outro modo, instale o Docker do jeito que preferir em sua máquina.
-  * Crie uma imagem do Docker. Para esse projeto, utilizei, por linha de comando: "docker run --name redis -p 6379:6379 -d -t redis:alpine". Você pode utilizar os arquivos composer para te auxiliar na criação de conteiners e imagens.
-  * Por fim, você pode rodar o projeto no modo desenvolvedor utilizando: "npm run dev". Se estiver usando o yarn como seu gerenciador de pacotes, use: "yarn dev".
-
-- Para testar a aplicação:
-  * Enviar uma requisição GET para a rota: "/" na porta 3000. Se receber "Ok" como resposta, a aplicação está pronta para utilizar e modificar, caso queira.
-
-- Usando o envio de e-mail: 
-  * É importante entender que a rota para envio de e-mail, utiliza uma função simples como middleware. Esse, busca pelo cabeçalho da requisição um Bearer Token para autenticação. Dessa forma, crie um token novo, guarde-o no arquivo "conn" (/src/config/conn.js) e use-o no cabeçalho da requisição.
-  * Para o corpo da requisição, use uma lista de objetos JSON com os campos: "email_to", "subject", "html_body" e "attachment" para cada objeto.
-
-Divirta-se!
-
+# mailService
 
 #### ENGLISH ####
 - Automatically e-mail sender with Node.js and Redis!
